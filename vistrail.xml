@@ -7838,14 +7838,375 @@
       <port id="1255" moduleId="329" moduleName="VTKCell" name="Location" signature="(org.vistrails.vistrails.spreadsheet:CellLocation)" type="destination" />
     </add>
   </action>
+  <action date="2015-01-28 17:16:59" id="262" prevId="89" session="22" user="afein">
+    <annotation id="118" key="__description__" value="Upgrade" />
+    <delete id="3058" objectId="36" parentObjId="18" parentObjType="connection" what="port" />
+    <delete id="3059" objectId="37" parentObjId="18" parentObjType="connection" what="port" />
+    <delete id="3060" objectId="18" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3061" objectId="28" parentObjId="14" parentObjType="connection" what="port" />
+    <delete id="3062" objectId="29" parentObjId="14" parentObjType="connection" what="port" />
+    <delete id="3063" objectId="14" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3064" objectId="45" parentObjId="16" parentObjType="module" what="location" />
+    <delete id="3065" objectId="14" parentObjId="16" parentObjType="module" what="function" />
+    <delete id="3066" objectId="15" parentObjId="16" parentObjType="module" what="function" />
+    <delete id="3067" objectId="16" parentObjId="" parentObjType="" what="module" />
+    <delete id="3068" objectId="32" parentObjId="16" parentObjType="connection" what="port" />
+    <delete id="3069" objectId="33" parentObjId="16" parentObjType="connection" what="port" />
+    <delete id="3070" objectId="16" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3071" objectId="38" parentObjId="19" parentObjType="connection" what="port" />
+    <delete id="3072" objectId="39" parentObjId="19" parentObjType="connection" what="port" />
+    <delete id="3073" objectId="19" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3074" objectId="30" parentObjId="15" parentObjType="connection" what="port" />
+    <delete id="3075" objectId="31" parentObjId="15" parentObjType="connection" what="port" />
+    <delete id="3076" objectId="15" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3077" objectId="49" parentObjId="19" parentObjType="module" what="location" />
+    <delete id="3078" objectId="34" parentObjId="16" parentObjType="function" what="parameter" />
+    <delete id="3079" objectId="16" parentObjId="19" parentObjType="module" what="function" />
+    <delete id="3080" objectId="19" parentObjId="" parentObjType="" what="module" />
+    <delete id="3081" objectId="65" parentObjId="18" parentObjType="module" what="location" />
+    <delete id="3082" objectId="22" parentObjId="10" parentObjType="function" what="parameter" />
+    <delete id="3083" objectId="23" parentObjId="10" parentObjType="function" what="parameter" />
+    <delete id="3084" objectId="24" parentObjId="10" parentObjType="function" what="parameter" />
+    <delete id="3085" objectId="10" parentObjId="18" parentObjType="module" what="function" />
+    <delete id="3086" objectId="25" parentObjId="11" parentObjType="function" what="parameter" />
+    <delete id="3087" objectId="26" parentObjId="11" parentObjType="function" what="parameter" />
+    <delete id="3088" objectId="27" parentObjId="11" parentObjType="function" what="parameter" />
+    <delete id="3089" objectId="11" parentObjId="18" parentObjType="module" what="function" />
+    <delete id="3090" objectId="28" parentObjId="12" parentObjType="function" what="parameter" />
+    <delete id="3091" objectId="29" parentObjId="12" parentObjType="function" what="parameter" />
+    <delete id="3092" objectId="30" parentObjId="12" parentObjType="function" what="parameter" />
+    <delete id="3093" objectId="12" parentObjId="18" parentObjType="module" what="function" />
+    <delete id="3094" objectId="18" parentObjId="" parentObjType="" what="module" />
+    <delete id="3095" objectId="48" parentObjId="24" parentObjType="connection" what="port" />
+    <delete id="3096" objectId="49" parentObjId="24" parentObjType="connection" what="port" />
+    <delete id="3097" objectId="24" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3098" objectId="58" parentObjId="21" parentObjType="module" what="location" />
+    <delete id="3099" objectId="21" parentObjId="" parentObjType="" what="module" />
+    <delete id="3100" objectId="34" parentObjId="17" parentObjType="connection" what="port" />
+    <delete id="3101" objectId="35" parentObjId="17" parentObjType="connection" what="port" />
+    <delete id="3102" objectId="17" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3103" objectId="56" parentObjId="20" parentObjType="module" what="location" />
+    <delete id="3104" objectId="31" parentObjId="13" parentObjType="function" what="parameter" />
+    <delete id="3105" objectId="13" parentObjId="20" parentObjType="module" what="function" />
+    <delete id="3106" objectId="20" parentObjId="" parentObjType="" what="module" />
+    <delete id="3107" objectId="42" parentObjId="21" parentObjType="connection" what="port" />
+    <delete id="3108" objectId="43" parentObjId="21" parentObjType="connection" what="port" />
+    <delete id="3109" objectId="21" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3110" objectId="46" parentObjId="23" parentObjType="connection" what="port" />
+    <delete id="3111" objectId="47" parentObjId="23" parentObjType="connection" what="port" />
+    <delete id="3112" objectId="23" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3113" objectId="62" parentObjId="23" parentObjType="module" what="location" />
+    <delete id="3114" objectId="36" parentObjId="17" parentObjType="function" what="parameter" />
+    <delete id="3115" objectId="17" parentObjId="23" parentObjType="module" what="function" />
+    <delete id="3116" objectId="23" parentObjId="" parentObjType="" what="module" />
+    <delete id="3117" objectId="40" parentObjId="20" parentObjType="connection" what="port" />
+    <delete id="3118" objectId="41" parentObjId="20" parentObjType="connection" what="port" />
+    <delete id="3119" objectId="20" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3120" objectId="66" parentObjId="22" parentObjType="module" what="location" />
+    <delete id="3121" objectId="22" parentObjId="" parentObjType="" what="module" />
+    <delete id="3122" objectId="24" parentObjId="12" parentObjType="connection" what="port" />
+    <delete id="3123" objectId="25" parentObjId="12" parentObjType="connection" what="port" />
+    <delete id="3124" objectId="12" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3125" objectId="26" parentObjId="13" parentObjType="connection" what="port" />
+    <delete id="3126" objectId="27" parentObjId="13" parentObjType="connection" what="port" />
+    <delete id="3127" objectId="13" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3128" objectId="64" parentObjId="15" parentObjType="module" what="location" />
+    <delete id="3129" objectId="15" parentObjId="" parentObjType="" what="module" />
+    <delete id="3130" objectId="44" parentObjId="22" parentObjType="connection" what="port" />
+    <delete id="3131" objectId="45" parentObjId="22" parentObjType="connection" what="port" />
+    <delete id="3132" objectId="22" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3133" objectId="67" parentObjId="24" parentObjType="module" what="location" />
+    <delete id="3134" objectId="38" parentObjId="18" parentObjType="function" what="parameter" />
+    <delete id="3135" objectId="18" parentObjId="24" parentObjType="module" what="function" />
+    <delete id="3136" objectId="24" parentObjId="" parentObjType="" what="module" />
+    <delete id="3137" objectId="22" parentObjId="11" parentObjType="connection" what="port" />
+    <delete id="3138" objectId="23" parentObjId="11" parentObjType="connection" what="port" />
+    <delete id="3139" objectId="11" parentObjId="" parentObjType="" what="connection" />
+    <delete id="3140" objectId="55" parentObjId="14" parentObjType="module" what="location" />
+    <delete id="3141" objectId="14" parentObjId="" parentObjType="" what="module" />
+    <delete id="3142" objectId="44" parentObjId="17" parentObjType="module" what="location" />
+    <delete id="3143" objectId="17" parentObjId="" parentObjType="" what="module" />
+    <delete id="3144" objectId="54" parentObjId="13" parentObjType="module" what="location" />
+    <delete id="3145" objectId="35" parentObjId="9" parentObjType="function" what="parameter" />
+    <delete id="3146" objectId="9" parentObjId="13" parentObjType="module" what="function" />
+    <delete id="3147" objectId="13" parentObjId="" parentObjType="" what="module" />
+    <add id="3148" objectId="340" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="340" name="vtkVolumeProperty" namespace="" package="org.vistrails.vistrails.vtk" version="0.9.4" />
+    </add>
+    <add id="3149" objectId="406" parentObjId="340" parentObjType="module" what="function">
+      <function id="406" name="ShadeOn" pos="1" />
+    </add>
+    <add id="3150" objectId="405" parentObjId="340" parentObjType="module" what="function">
+      <function id="405" name="SetInterpolationTypeToLinear" pos="0" />
+    </add>
+    <add id="3151" objectId="444" parentObjId="340" parentObjType="module" what="location">
+      <location id="444" x="170.052193098" y="149.719865662" />
+    </add>
+    <add id="3152" objectId="341" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="341" name="vtkRenderer" namespace="" package="org.vistrails.vistrails.vtk" version="0.9.4" />
+    </add>
+    <add id="3153" objectId="407" parentObjId="341" parentObjType="module" what="function">
+      <function id="407" name="SetBackgroundWidget" pos="0" />
+    </add>
+    <add id="3154" objectId="674" parentObjId="407" parentObjType="function" what="parameter">
+      <parameter alias="Background" id="674" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Color" val="0.0,0.0,0.0" />
+    </add>
+    <add id="3155" objectId="445" parentObjId="341" parentObjType="module" what="location">
+      <location id="445" x="35.1194746615" y="-109.055210791" />
+    </add>
+    <add id="3156" objectId="342" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="342" name="vtkCamera" namespace="" package="org.vistrails.vistrails.vtk" version="0.9.4" />
+    </add>
+    <add id="3157" objectId="410" parentObjId="342" parentObjType="module" what="function">
+      <function id="410" name="SetFocalPoint" pos="2" />
+    </add>
+    <add id="3158" objectId="683" parentObjId="410" parentObjType="function" what="parameter">
+      <parameter alias="" id="683" name="&lt;no description&gt;" pos="2" type="org.vistrails.vistrails.basic:Float" val="150" />
+    </add>
+    <add id="3159" objectId="682" parentObjId="410" parentObjType="function" what="parameter">
+      <parameter alias="" id="682" name="&lt;no description&gt;" pos="1" type="org.vistrails.vistrails.basic:Float" val="135" />
+    </add>
+    <add id="3160" objectId="681" parentObjId="410" parentObjType="function" what="parameter">
+      <parameter alias="" id="681" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Float" val="135" />
+    </add>
+    <add id="3161" objectId="409" parentObjId="342" parentObjType="module" what="function">
+      <function id="409" name="SetViewUp" pos="1" />
+    </add>
+    <add id="3162" objectId="680" parentObjId="409" parentObjType="function" what="parameter">
+      <parameter alias="" id="680" name="&lt;no description&gt;" pos="2" type="org.vistrails.vistrails.basic:Float" val="-1" />
+    </add>
+    <add id="3163" objectId="679" parentObjId="409" parentObjType="function" what="parameter">
+      <parameter alias="" id="679" name="&lt;no description&gt;" pos="1" type="org.vistrails.vistrails.basic:Float" val="0" />
+    </add>
+    <add id="3164" objectId="678" parentObjId="409" parentObjType="function" what="parameter">
+      <parameter alias="" id="678" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Float" val="0" />
+    </add>
+    <add id="3165" objectId="408" parentObjId="342" parentObjType="module" what="function">
+      <function id="408" name="SetPosition" pos="0" />
+    </add>
+    <add id="3166" objectId="677" parentObjId="408" parentObjType="function" what="parameter">
+      <parameter alias="" id="677" name="&lt;no description&gt;" pos="2" type="org.vistrails.vistrails.basic:Float" val="370" />
+    </add>
+    <add id="3167" objectId="676" parentObjId="408" parentObjType="function" what="parameter">
+      <parameter alias="" id="676" name="&lt;no description&gt;" pos="1" type="org.vistrails.vistrails.basic:Float" val="-453" />
+    </add>
+    <add id="3168" objectId="675" parentObjId="408" parentObjType="function" what="parameter">
+      <parameter alias="" id="675" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Float" val="745" />
+    </add>
+    <add id="3169" objectId="446" parentObjId="342" parentObjType="module" what="location">
+      <location id="446" x="-145.506105169" y="33.2243524101" />
+    </add>
+    <add id="3170" objectId="633" parentObjId="" parentObjType="" what="connection">
+      <connection id="633" />
+    </add>
+    <add id="3171" objectId="1266" parentObjId="633" parentObjType="connection" what="port">
+      <port id="1266" moduleId="342" moduleName="vtkCamera" name="self" signature="(org.vistrails.vistrails.vtk:vtkCamera)" type="source" />
+    </add>
+    <add id="3172" objectId="1267" parentObjId="633" parentObjType="connection" what="port">
+      <port id="1267" moduleId="341" moduleName="vtkRenderer" name="SetActiveCamera" signature="(org.vistrails.vistrails.vtk:vtkCamera)" type="destination" />
+    </add>
+    <add id="3173" objectId="343" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="343" name="VTKCell" namespace="" package="org.vistrails.vistrails.vtk" version="0.9.4" />
+    </add>
+    <add id="3174" objectId="447" parentObjId="343" parentObjType="module" what="location">
+      <location id="447" x="59.5564955959" y="-189.698467454" />
+    </add>
+    <add id="3175" objectId="635" parentObjId="" parentObjType="" what="connection">
+      <connection id="635" />
+    </add>
+    <add id="3176" objectId="1270" parentObjId="635" parentObjType="connection" what="port">
+      <port id="1270" moduleId="341" moduleName="vtkRenderer" name="self" signature="(org.vistrails.vistrails.vtk:vtkRenderer)" type="source" />
+    </add>
+    <add id="3177" objectId="1271" parentObjId="635" parentObjType="connection" what="port">
+      <port id="1271" moduleId="343" moduleName="VTKCell" name="AddRenderer" signature="(org.vistrails.vistrails.vtk:vtkRenderer)" type="destination" />
+    </add>
+    <add id="3178" objectId="344" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="344" name="vtkScaledTransferFunction" namespace="" package="org.vistrails.vistrails.vtk" version="0.9.4" />
+    </add>
+    <add id="3179" objectId="411" parentObjId="344" parentObjType="module" what="function">
+      <function id="411" name="TransferFunction" pos="0" />
+    </add>
+    <add id="3180" objectId="684" parentObjId="411" parentObjType="function" what="parameter">
+      <parameter alias="" id="684" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.vtk:TransferFunction" val="63636f70795f7265670a5f7265636f6e7374727563746f720a70300a28637061636b616765732e76746b2e74665f7769646765740a5472616e7366657246756e6374696f6e0a70310a635f5f6275696c74696e5f5f0a6f626a6563740a70320a4e7470330a5270340a286470350a53275f6d696e5f72616e6765270a70360a46302e300a7353275f707473270a70370a286c70380a2846302e300a46302e300a2846302e300a46302e300a46302e300a7470390a747031300a612846302e3037373630323138323836353334303734390a46302e300a2846302e300a46302e300a46302e300a747031310a747031320a612846302e313431353730313431353730313431350a46302e36323030373136383435383738313335390a2846302e383930313936303738343331333732350a46302e35333732353439303139363037383432390a46302e34363237343530393830333932313537310a747031330a747031340a612846302e32303539323032303539323032303539310a46302e300a2846302e300a46302e300a46302e300a747031350a747031360a612846302e32353139313138333038353931393933330a46302e300a2846312e300a46312e300a46312e300a747031370a747031380a612846302e34363333333838333137353838383434310a46302e39373136353533323837393831383539350a2846312e300a46312e300a46312e300a747031390a747032300a612846302e36383337363036383337363036383432320a46302e300a2846302e32373035383832333532393431313736330a46302e32373035383832333532393431313736330a46302e32373035383832333532393431313736330a747032310a747032320a612846312e300a46302e300a2846302e300a46302e300a46302e300a747032330a747032340a617353275f6d61785f72616e6765270a7032350a46312e300a73622e" />
+    </add>
+    <add id="3181" objectId="448" parentObjId="344" parentObjType="module" what="location">
+      <location id="448" x="103.510030581" y="226.428191897" />
+    </add>
+    <add id="3182" objectId="636" parentObjId="" parentObjType="" what="connection">
+      <connection id="636" />
+    </add>
+    <add id="3183" objectId="1272" parentObjId="636" parentObjType="connection" what="port">
+      <port id="1272" moduleId="344" moduleName="vtkScaledTransferFunction" name="TransferFunction" signature="(org.vistrails.vistrails.vtk:TransferFunction)" type="source" />
+    </add>
+    <add id="3184" objectId="1273" parentObjId="636" parentObjType="connection" what="port">
+      <port id="1273" moduleId="340" moduleName="vtkVolumeProperty" name="SetTransferFunction" signature="(org.vistrails.vistrails.vtk:TransferFunction)" type="destination" />
+    </add>
+    <add id="3185" objectId="345" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="345" name="vtkInteractionHandler" namespace="" package="org.vistrails.vistrails.vtk" version="0.9.4" />
+    </add>
+    <add id="3186" objectId="412" parentObjId="345" parentObjType="module" what="function">
+      <function id="412" name="Handler" pos="0" />
+    </add>
+    <add id="3187" objectId="685" parentObjId="412" parentObjType="function" what="parameter">
+      <parameter alias="" id="685" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:String" val="def%20interactionHandler%28observer%2C%20shareddata%29%3A%0A%20%20%20%20observer.GetPlane%28shareddata.vtkInstance%29" />
+    </add>
+    <add id="3188" objectId="449" parentObjId="345" parentObjType="module" what="location">
+      <location id="449" x="-229.20185704" y="-134.02481471" />
+    </add>
+    <add id="3189" objectId="638" parentObjId="" parentObjType="" what="connection">
+      <connection id="638" />
+    </add>
+    <add id="3190" objectId="1276" parentObjId="638" parentObjType="connection" what="port">
+      <port id="1276" moduleId="345" moduleName="vtkInteractionHandler" name="self" signature="(org.vistrails.vistrails.vtk:vtkInteractionHandler)" type="source" />
+    </add>
+    <add id="3191" objectId="1277" parentObjId="638" parentObjType="connection" what="port">
+      <port id="1277" moduleId="343" moduleName="VTKCell" name="InteractionHandler" signature="(org.vistrails.vistrails.vtk:vtkInteractionHandler)" type="destination" />
+    </add>
+    <add id="3192" objectId="346" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="346" name="vtkPlane" namespace="" package="org.vistrails.vistrails.vtk" version="0.9.4" />
+    </add>
+    <add id="3193" objectId="450" parentObjId="346" parentObjType="module" what="location">
+      <location id="450" x="-340.889202632" y="59.2428528791" />
+    </add>
+    <add id="3194" objectId="642" parentObjId="" parentObjType="" what="connection">
+      <connection id="642" />
+    </add>
+    <add id="3195" objectId="1284" parentObjId="642" parentObjType="connection" what="port">
+      <port id="1284" moduleId="346" moduleName="vtkPlane" name="self" signature="(org.vistrails.vistrails.vtk:vtkPlane)" type="source" />
+    </add>
+    <add id="3196" objectId="1285" parentObjId="642" parentObjType="connection" what="port">
+      <port id="1285" moduleId="345" moduleName="vtkInteractionHandler" name="SharedData" signature="(org.vistrails.vistrails.basic:Module)" type="destination" />
+    </add>
+    <add id="3197" objectId="347" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="347" name="vtkVolumeTextureMapper3D" namespace="" package="org.vistrails.vistrails.vtk" version="0.9.4" />
+    </add>
+    <add id="3198" objectId="451" parentObjId="347" parentObjType="module" what="location">
+      <location id="451" x="-181.01731615" y="164.319291216" />
+    </add>
+    <add id="3199" objectId="645" parentObjId="" parentObjType="" what="connection">
+      <connection id="645" />
+    </add>
+    <add id="3200" objectId="1290" parentObjId="645" parentObjType="connection" what="port">
+      <port id="1290" moduleId="346" moduleName="vtkPlane" name="self" signature="(org.vistrails.vistrails.vtk:vtkPlane)" type="source" />
+    </add>
+    <add id="3201" objectId="1291" parentObjId="645" parentObjType="connection" what="port">
+      <port id="1291" moduleId="347" moduleName="vtkVolumeTextureMapper3D" name="AddClippingPlane" signature="(org.vistrails.vistrails.vtk:vtkPlane)" type="destination" />
+    </add>
+    <add id="3202" objectId="348" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="348" name="vtkImplicitPlaneWidget" namespace="" package="org.vistrails.vistrails.vtk" version="0.9.4" />
+    </add>
+    <add id="3203" objectId="413" parentObjId="348" parentObjType="module" what="function">
+      <function id="413" name="SetPlaceFactor" pos="0" />
+    </add>
+    <add id="3204" objectId="686" parentObjId="413" parentObjType="function" what="parameter">
+      <parameter alias="" id="686" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:Float" val="1.25" />
+    </add>
+    <add id="3205" objectId="452" parentObjId="348" parentObjType="module" what="location">
+      <location id="452" x="-196.181250518" y="-47.5885211652" />
+    </add>
+    <add id="3206" objectId="646" parentObjId="" parentObjType="" what="connection">
+      <connection id="646" />
+    </add>
+    <add id="3207" objectId="1292" parentObjId="646" parentObjType="connection" what="port">
+      <port id="1292" moduleId="348" moduleName="vtkImplicitPlaneWidget" name="self" signature="(org.vistrails.vistrails.vtk:vtkImplicitPlaneWidget)" type="source" />
+    </add>
+    <add id="3208" objectId="1293" parentObjId="646" parentObjType="connection" what="port">
+      <port id="1293" moduleId="345" moduleName="vtkInteractionHandler" name="Observer" signature="(org.vistrails.vistrails.vtk:vtkInteractorObserver)" type="destination" />
+    </add>
+    <add id="3209" objectId="349" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="349" name="vtkStructuredPointsReader" namespace="" package="org.vistrails.vistrails.vtk" version="0.9.4" />
+    </add>
+    <add id="3210" objectId="453" parentObjId="349" parentObjType="module" what="location">
+      <location id="453" x="-178.478103712" y="280.920862562" />
+    </add>
+    <add id="3211" objectId="648" parentObjId="" parentObjType="" what="connection">
+      <connection id="648" />
+    </add>
+    <add id="3212" objectId="1296" parentObjId="648" parentObjType="connection" what="port">
+      <port id="1296" moduleId="349" moduleName="vtkStructuredPointsReader" name="GetOutput" signature="(org.vistrails.vistrails.vtk:vtkStructuredPoints)" type="source" />
+    </add>
+    <add id="3213" objectId="1297" parentObjId="648" parentObjType="connection" what="port">
+      <port id="1297" moduleId="344" moduleName="vtkScaledTransferFunction" name="Dataset" signature="(org.vistrails.vistrails.vtk:vtkDataObject)" type="destination" />
+    </add>
+    <add id="3214" objectId="649" parentObjId="" parentObjType="" what="connection">
+      <connection id="649" />
+    </add>
+    <add id="3215" objectId="1298" parentObjId="649" parentObjType="connection" what="port">
+      <port id="1298" moduleId="349" moduleName="vtkStructuredPointsReader" name="GetOutputPort0" signature="(org.vistrails.vistrails.vtk:vtkAlgorithmOutput)" type="source" />
+    </add>
+    <add id="3216" objectId="1299" parentObjId="649" parentObjType="connection" what="port">
+      <port id="1299" moduleId="347" moduleName="vtkVolumeTextureMapper3D" name="SetInputConnection0" signature="(org.vistrails.vistrails.vtk:vtkAlgorithmOutput)" type="destination" />
+    </add>
+    <add id="3217" objectId="350" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="350" name="vtkVolume" namespace="" package="org.vistrails.vistrails.vtk" version="0.9.4" />
+    </add>
+    <add id="3218" objectId="454" parentObjId="350" parentObjType="module" what="location">
+      <location id="454" x="39.7404581696" y="13.8629505243" />
+    </add>
+    <add id="3219" objectId="651" parentObjId="" parentObjType="" what="connection">
+      <connection id="651" />
+    </add>
+    <add id="3220" objectId="1302" parentObjId="651" parentObjType="connection" what="port">
+      <port id="1302" moduleId="350" moduleName="vtkVolume" name="self" signature="(org.vistrails.vistrails.vtk:vtkVolume)" type="source" />
+    </add>
+    <add id="3221" objectId="1303" parentObjId="651" parentObjType="connection" what="port">
+      <port id="1303" moduleId="341" moduleName="vtkRenderer" name="AddVolume" signature="(org.vistrails.vistrails.vtk:vtkProp)" type="destination" />
+    </add>
+    <add id="3222" objectId="652" parentObjId="" parentObjType="" what="connection">
+      <connection id="652" />
+    </add>
+    <add id="3223" objectId="1304" parentObjId="652" parentObjType="connection" what="port">
+      <port id="1304" moduleId="350" moduleName="vtkVolume" name="self" signature="(org.vistrails.vistrails.vtk:vtkVolume)" type="source" />
+    </add>
+    <add id="3224" objectId="1305" parentObjId="652" parentObjType="connection" what="port">
+      <port id="1305" moduleId="348" moduleName="vtkImplicitPlaneWidget" name="SetProp3D" signature="(org.vistrails.vistrails.vtk:vtkProp3D)" type="destination" />
+    </add>
+    <add id="3225" objectId="653" parentObjId="" parentObjType="" what="connection">
+      <connection id="653" />
+    </add>
+    <add id="3226" objectId="1306" parentObjId="653" parentObjType="connection" what="port">
+      <port id="1306" moduleId="340" moduleName="vtkVolumeProperty" name="self" signature="(org.vistrails.vistrails.vtk:vtkVolumeProperty)" type="source" />
+    </add>
+    <add id="3227" objectId="1307" parentObjId="653" parentObjType="connection" what="port">
+      <port id="1307" moduleId="350" moduleName="vtkVolume" name="SetProperty" signature="(org.vistrails.vistrails.vtk:vtkVolumeProperty)" type="destination" />
+    </add>
+    <add id="3228" objectId="654" parentObjId="" parentObjType="" what="connection">
+      <connection id="654" />
+    </add>
+    <add id="3229" objectId="1308" parentObjId="654" parentObjType="connection" what="port">
+      <port id="1308" moduleId="347" moduleName="vtkVolumeTextureMapper3D" name="self" signature="(org.vistrails.vistrails.vtk:vtkVolumeTextureMapper3D)" type="source" />
+    </add>
+    <add id="3230" objectId="1309" parentObjId="654" parentObjType="connection" what="port">
+      <port id="1309" moduleId="350" moduleName="vtkVolume" name="SetMapper" signature="(org.vistrails.vistrails.vtk:vtkAbstractVolumeMapper)" type="destination" />
+    </add>
+    <add id="3231" objectId="351" parentObjId="" parentObjType="" what="module">
+      <module cache="1" id="351" name="HTTPFile" namespace="" package="org.vistrails.vistrails.http" version="0.9.1" />
+    </add>
+    <add id="3232" objectId="414" parentObjId="351" parentObjType="module" what="function">
+      <function id="414" name="url" pos="0" />
+    </add>
+    <add id="3233" objectId="687" parentObjId="414" parentObjType="function" what="parameter">
+      <parameter alias="filename" id="687" name="&lt;no description&gt;" pos="0" type="org.vistrails.vistrails.basic:String" val="http://www.vistrails.org/download/download.php?type=DATA&amp;id=head.120.vtk" />
+    </add>
+    <add id="3234" objectId="455" parentObjId="351" parentObjType="module" what="location">
+      <location id="455" x="-168.230425622" y="389.520222336" />
+    </add>
+    <add id="3235" objectId="655" parentObjId="" parentObjType="" what="connection">
+      <connection id="655" />
+    </add>
+    <add id="3236" objectId="1310" parentObjId="655" parentObjType="connection" what="port">
+      <port id="1310" moduleId="351" moduleName="HTTPFile" name="file" signature="(org.vistrails.vistrails.basic:File)" type="source" />
+    </add>
+    <add id="3237" objectId="1311" parentObjId="655" parentObjType="connection" what="port">
+      <port id="1311" moduleId="349" moduleName="vtkStructuredPointsReader" name="SetFile" signature="(org.vistrails.vistrails.basic:File)" type="destination" />
+    </add>
+  </action>
   <actionAnnotation actionId="28" date="2010-11-22 17:13:14" id="4" key="__tag__" user="emanuele" value="Isosurface" />
   <actionAnnotation actionId="28" date="2010-11-22 17:13:27" id="5" key="__notes__" user="emanuele" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt; &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt; p, li { white-space: pre-wrap; } &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Lucida Grande'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt; &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;A workflow that extracts an isosurface and renders into an interactive spreadsheet cell. This workflow almost directly corresponds to the python source specified in the script node of the history tree. Notice that the visual representation is much easier to understand even for this very simple example. Next step: Add vtkImageResample, SetMaxScaleFactor = 0.5. Parameter explore: SetContour 55-70, SetMaxScaleFactor 0.3-1.0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" />
   <actionAnnotation actionId="41" date="2010-11-22 17:23:08" id="14" key="__tag__" user="emanuele" value="Histogram" />
   <actionAnnotation actionId="75" date="2010-11-22 17:29:39" id="22" key="__tag__" user="emanuele" value="Volume Rendering HW" />
   <actionAnnotation actionId="75" date="2010-11-22 17:29:58" id="23" key="__notes__" user="emanuele" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt; &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt; p, li { white-space: pre-wrap; } &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Lucida Grande'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt; &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Similar to the Isosurface workflow, except using a full 3D accelerated volume renderer in place of isosurfacing. The skin is rendered semi-transparently while the bone is left opaque. By dragging the node in the history tree onto the isosurface node, a visual difference is presented and it becomes easy to determine the difference in algorithms.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" />
-  <actionAnnotation actionId="89" date="2010-11-22 17:34:05" id="25" key="__tag__" user="emanuele" value="Clipping Plane HW" />
   <actionAnnotation actionId="89" date="2010-11-22 17:34:25" id="26" key="__notes__" user="emanuele" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt; &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt; p, li { white-space: pre-wrap; } &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Lucida Grande'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt; &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Introduce a clipping plane to the volume rendering workflow. In the spreadsheet cell, the clipping plane is shown using the _i_ key, after which it can be interactively moved. The plane will cull all data on one side. This workflow primarily demonstrates the ability to update the specification with an interactive widget. This complication results in a workflow that does not just flow from top to bottom.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" />
-  <actionAnnotation actionId="111" date="2010-11-23 15:12:48" id="28" key="__tag__" user="emanuele" value="Combined Rendering HW" />
   <actionAnnotation actionId="111" date="2010-11-23 15:13:48" id="29" key="__notes__" user="emanuele" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt; &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt; p, li { white-space: pre-wrap; } &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Lucida Grande'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt; &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Instead of culling the volume with the clipping plane, now we use the plane to specify different rendering algorithms. One side of the plane remains a full volume rendering of the skin and bone, the other renders an isosurface of the just the bone. This example shows how pieces from previous versions in the history tree can be copied into the current version for a more complete visualization.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" />
   <actionAnnotation actionId="221" date="2010-11-24 14:15:08" id="37" key="__notes__" user="emanuele" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt; &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt; p, li { white-space: pre-wrap; } &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Lucida Grande'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt; &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This workflow uses the origin of the clipping plane to extract axis-aligned slices of the volume. These slices are rendered in separate cells of the spreadsheet. The main purpose of this example is to demonstrate the ability to synchronize multiple visualizations using an interactive widget. It also demonstrates how a simple set of visualizations can cause the workflow to become difficult to manage without important features that a provenance aware visualization system such as VisTrails.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" />
   <actionAnnotation actionId="229" date="2010-11-24 14:19:35" id="43" key="__tag__" user="emanuele" value="Volume Rendering SW" />
@@ -7866,8 +8227,8 @@
   <actionAnnotation actionId="259" date="2012-12-14 20:57:07" id="97" key="__notes__" user="tommy" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Lucida Grande'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The same as Image Slices SW, , but with a software raycaster.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" />
   <actionAnnotation actionId="259" date="2012-12-14 20:57:12" id="98" key="__tag__" user="tommy" value="Image Slices SW" />
   <actionAnnotation actionId="258" date="2012-12-14 21:00:04" id="99" key="__notes__" user="tommy" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Lucida Grande'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This workflow uses the origin of the clipping plane to extract axis-aligned slices of the volume. These slices are rendered in separate cells of the spreadsheet. The main purpose of this example is to demonstrate the ability to synchronize multiple visualizations using an interactive widget. It also demonstrates how a simple set of visualizations can cause the workflow to become difficult to manage without important features that a provenance aware visualization system such as VisTrails.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" />
-  <actionAnnotation actionId="258" date="2012-12-14 21:38:46" id="100" key="__tag__" user="tommy" value="Image Slices HW" />
   <actionAnnotation actionId="259" date="2013-05-21 17:00:39" id="111" key="__upgrade__" user="tommy" value="260" />
   <actionAnnotation actionId="258" date="2015-01-28 17:15:18" id="116" key="__upgrade__" user="grivan" value="261" />
-  <actionAnnotation actionId="261" date="2015-01-28 17:15:18" id="117" key="__tag__" user="grivan" value="Imag Slices HW" />
+  <actionAnnotation actionId="76" date="2015-01-28 17:16:52" id="119" key="__prune__" user="afein" value="True" />
+  <actionAnnotation actionId="89" date="2015-01-28 17:16:59" id="121" key="__upgrade__" user="afein" value="262" />
 </vistrail>
