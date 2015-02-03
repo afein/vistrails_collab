@@ -8236,6 +8236,11 @@
       <location id="461" x="997.897455052" y="727.432718163" />
     </change>
   </action>
+  <action date="2015-02-02 21:13:04" id="270" prevId="260" session="26" user="afein">
+    <change id="3245" newObjId="462" oldObjId="279" parentObjId="175" parentObjType="module" what="location">
+      <location id="462" x="729.526620018" y="258.469254508" />
+    </change>
+  </action>
   <actionAnnotation actionId="28" date="2010-11-22 17:13:14" id="4" key="__tag__" user="emanuele" value="Isosurface" />
   <actionAnnotation actionId="28" date="2010-11-22 17:13:27" id="5" key="__notes__" user="emanuele" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt; &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt; p, li { white-space: pre-wrap; } &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Lucida Grande'; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt; &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;A workflow that extracts an isosurface and renders into an interactive spreadsheet cell. This workflow almost directly corresponds to the python source specified in the script node of the history tree. Notice that the visual representation is much easier to understand even for this very simple example. Next step: Add vtkImageResample, SetMaxScaleFactor = 0.5. Parameter explore: SetContour 55-70, SetMaxScaleFactor 0.3-1.0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;" />
   <actionAnnotation actionId="41" date="2010-11-22 17:23:08" id="14" key="__tag__" user="emanuele" value="Histogram" />
