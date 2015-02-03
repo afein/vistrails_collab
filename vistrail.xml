@@ -8281,5 +8281,5 @@
   <actionAnnotation actionId="258" date="2015-01-28 17:15:18" id="116" key="__upgrade__" user="grivan" value="261" />
   <actionAnnotation actionId="76" date="2015-01-28 17:16:52" id="119" key="__prune__" user="afein" value="True" />
   <actionAnnotation actionId="89" date="2015-01-28 17:16:59" id="121" key="__upgrade__" user="afein" value="262" />
-  <actionAnnotation actionId="269" date="2015-02-02 21:09:47" id="122" key="__tag__" user="afein" value="Movodule" />
+  <actionAnnotation actionId="263" date="2015-02-03 01:51:41" id="123" key="__prune__" user="afein" value="True" />
 </vistrail>
